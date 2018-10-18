@@ -5,6 +5,7 @@ createCanvas(windowWidth,windowHeight);
 function draw() {
   background(58);
   noStroke();
+  rectMode(CORNER);
   rect(0,0,width,100);
   textSize(25);
   text("We The few", (width/2) - 30, 40);
