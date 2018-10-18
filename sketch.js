@@ -30,5 +30,5 @@ function windowResized() {
 }
 
 function showImages() {
-    console.log("Button was hit!");
+    document.location = 'images.html'
 }
