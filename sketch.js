@@ -2,7 +2,7 @@ var button;
 
 function setup() {
 createCanvas(windowWidth,4000);
-    button = createButton('click me');
+    button = createButton('View More Screenshots');
   button.position(width/2, 70);
   button.mousePressed(showImages);
 }
@@ -25,7 +25,7 @@ function draw() {
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, 12000);
+  resizeCanvas(windowWidth, 4000);
 }
 
 function showImages() {
