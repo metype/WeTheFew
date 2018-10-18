@@ -3,11 +3,12 @@ var button;
 function setup() {
 createCanvas(windowWidth,4000);
     button = createButton('View More Screenshots');
-  button.position(630, 300);
+  button.position(650, 300);
   button.mousePressed(showImages);
 }
 
 function draw() {
+      button.position(650, 300);
   background(58);
   noStroke();
   rectMode(CORNER);
