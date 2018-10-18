@@ -4,5 +4,5 @@ createCanvas(windowWidth,windowHeight);
 
 function draw() {
   background(58);
-console.log("Hi.");
+  rect(0,0,width,100);
 }
