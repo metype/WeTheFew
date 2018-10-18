@@ -8,7 +8,7 @@ createCanvas(windowWidth,4000);
 }
 
 function draw() {
-      button.position(650, 300);
+      button.position((width / 2) + (width/7), 175);
   background(58);
   noStroke();
   rectMode(CORNER);
@@ -20,7 +20,7 @@ function draw() {
   rectMode(CENTER);
   stroke(0);
   strokeWeight(5);
-   rect((width / 2) + (width/4), 650, 300, 1000, 20);
+     rect((width / 2) + (width/4), 700, width/4, 1100, 20);
   rect(width/4, 400, width/2, 500, 20);
     rect(width/4, 1000, width/2, 500, 20);
 }
