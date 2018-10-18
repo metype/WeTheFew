@@ -3,7 +3,7 @@ var button;
 function setup() {
 createCanvas(windowWidth,4000);
     button = createButton('click me');
-  button.position(19, 19);
+  button.position(width/2, 70);
   button.mousePressed(showImages);
 }
 
