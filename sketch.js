@@ -19,13 +19,13 @@ function draw() {
   rectMode(CENTER);
   stroke(0);
   strokeWeight(5);
-   rect((width / 2) + (width/4), 400, 100, 500, 20);
+   rect((width / 2) + (width/4), 650, 300, 1000, 20);
   rect(width/4, 400, width/2, 500, 20);
     rect(width/4, 1000, width/2, 500, 20);
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, 4000);
+  resizeCanvas(windowWidth, 12000);
 }
 
 function showImages() {
