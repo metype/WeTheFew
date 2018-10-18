@@ -8,7 +8,7 @@ function draw() {
   rectMode(CORNER);
   rect(0,0,width,100);
   textSize(25);
-  text("We The few", (width/2) - 40, 40);
+  text("We The few", (width/2) - (textWidth("We The Few") / 2), 40);
    textSize(15);
   text("Home", (width/2) - 30, 60);
   rectMode(CENTER);
