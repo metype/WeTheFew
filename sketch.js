@@ -11,7 +11,7 @@ function draw() {
    textSize(15);
   text("Home", (width/2) - 30, 60);
   rectMode(CENTER);
-  rect(width/2, 150, width/3, 500, 20);
+  rect(width/2, 350, width/3, 500, 20);
 }
 
 function windowResized() {
