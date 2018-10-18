@@ -13,6 +13,7 @@ function draw() {
   text("Home", (width/2) - 30, 60);
   rectMode(CENTER);
   stroke(0);
+  strokeWeight(5);
   rect(width/2, 400, width/2, 500, 20);
 }
 
