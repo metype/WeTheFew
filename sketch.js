@@ -1,5 +1,5 @@
 function setup() {
-createCanvas(windowWidth,windowHeight);
+createCanvas(windowWidth,windowHeight * 2);
 }
 
 function draw() {
@@ -8,11 +8,12 @@ function draw() {
   rectMode(CORNER);
   rect(0,0,width,100);
   textSize(25);
-  text("We The few", (width/2) - 30, 40);
+  text("We The few", (width/2) - 40, 40);
    textSize(15);
   text("Home", (width/2) - 30, 60);
   rectMode(CENTER);
-  rect(width/2, 300, width/2, 500, 20);
+  stroke(0);
+  rect(width/2, 400, width/2, 500, 20);
 }
 
 function windowResized() {
