@@ -4,6 +4,9 @@ div {
 
 body {
   margin:0px;
+  margin-top:-15px;
+  margin-bottom:0px;
+  overflow:hidden;
 }
 
 p {
