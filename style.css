@@ -1,11 +1,10 @@
 div {
-  background-color:grey;
-  outline-color:white;
+  background-color:#c2e4c6;
 }
 
 body {
- background-image:WTFLogo.png; 
-  background-color:black;
+background-image:
+  url('https://img.itch.zone/aW1nLzE1NjU5NDcucG5n/original/%2BPFiGy.png');
 }
 
 p {
@@ -40,4 +39,3 @@ h6 {
  text-align:center;
   font-family: fantasy;
 }
-
