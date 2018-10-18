@@ -3,7 +3,7 @@ var button;
 function setup() {
 createCanvas(windowWidth,4000);
     button = createButton('View More Screenshots');
-  button.position(width/2, 70);
+  button.position(630, 300);
   button.mousePressed(showImages);
 }
 
