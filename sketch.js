@@ -1,5 +1,10 @@
+var button;
+
 function setup() {
-createCanvas(windowWidth,windowHeight * 2);
+createCanvas(windowWidth,4000);
+    button = createButton('click me');
+  button.position(19, 19);
+  button.mousePressed(showImages);
 }
 
 function draw() {
@@ -14,9 +19,15 @@ function draw() {
   rectMode(CENTER);
   stroke(0);
   strokeWeight(5);
-  rect(width/2, 400, width/2, 500, 20);
+   rect((width / 2) + (width/4), 400, 100, 500, 20);
+  rect(width/4, 400, width/2, 500, 20);
+    rect(width/4, 1000, width/2, 500, 20);
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(windowWidth, 4000);
+}
+
+function showImages() {
+    console.log("Button was hit!");
 }
