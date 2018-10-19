@@ -16,7 +16,7 @@ function draw() {
   textSize(25);
   text("We The few", (width/2) - (textWidth("We The Few") / 2), 40);
    textSize(15);
-  text("Image", (width/2) - 30, 60);
+  text("Gallary", (width/2) - 30, 60);
   rectMode(CENTER);
   stroke(0);
   strokeWeight(5);
