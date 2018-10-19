@@ -1,14 +1,21 @@
-var button;
+var artbutton;
+var gamebutton;
+var infobutton;
 
 function setup() {
 createCanvas(windowWidth,4000);
-    button = createButton('View More Screenshots');
-  button.position(650, 300);
-  button.mousePressed(showImages);
+   artbutton = createButton('Gallary');
+  artbutton.position(19, 19);
+  artbutton.mousePressed(showImages);
+       gamebutton = createButton('Join The Community');
+  gamebutton.position(19, 39);
+  gamebutton.mousePressed(showImages);
+       infobutton = createButton('Information');
+  infobutton.position(19, 59);
+  infobutton.mousePressed(showImages);
 }
 
 function draw() {
-      button.position((width / 2) + (width/7), 175);
   background(58);
   noStroke();
   rectMode(CORNER);
