@@ -21,7 +21,7 @@ function draw() {
   stroke(0);
   strokeWeight(5);
   rect(width/2-10, 1050, width-30, 1750, 20);
-    image(
+    image("WTFLogo.png");
 }
 
 function windowResized() {
